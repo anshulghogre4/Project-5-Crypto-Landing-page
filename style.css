@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    border: 0;
+    
+    
+}
+
+body{
+    margin: 0;
+    border: 0;
+    height: 140vh;
+   
+  
+}
+
+/*  Navbar Starts */
+.navbar{
+display: flex;
+flex-direction: row;
+height: 10vh;
+background: #000000;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}
+
+.navbar IMG{
+    width: 90px;
+}
+
+.line  {
+    position:relative;
+    right: 60px ;
+     height: 40px; 
+    border-left:1px solid #ffffff ;
+}
+
+.grow-list{
+    display: flex;
+flex-direction: row;
+color: #ffffff;
+font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.list{
+    position:relative;
+    right: 150px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    column-gap: 80px; 
+    cursor: pointer;       
+}
+
+
+.list-item:first-child::after
+{
+    content: "   >";
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 3px;
+  transform: rotate(90deg);
+}
+
+
+.button-small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #be2edd;
+    color:#ffffff;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  padding: 5px 25px;
+  border:1px transparent #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero Section Starts */
+
+.hero{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size:   cover;
+     height: 130vh;
+     display: flex; 
+     flex-direction: column;
+     align-items: center;
+    }
+
+    .hero-heading{
+        position: relative;
+        top: 180px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        color: #ffffff;
+        font-size: 83px;
+        text-align: center;
+        
+        width: 900px;
+        line-height: 100px;
+    }
+
+.hero-description{
+    position: relative;
+    top: 180px;
+    color: #ffffff;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 31px;
+}
+
+.button-large{
+    position: relative;
+    top:250px;
+    background-color: #be2edd;
+    color: #ffffff;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 450;
+  font-display: swap;
+  font-size: 31px;
+  padding: 10px 20px ;
+  border: 1px transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
